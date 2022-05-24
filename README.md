@@ -1,31 +1,14 @@
-# ts-node-template
+# demo-kintone-plugin-uploader-in-docker
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg)](https://github.com/RichardLitt/standard-readme)
-
-> Template project for ts-node
-
-## Table of Contents
-
-- [Install](#install)
-- [Usage](#usage)
-- [Contribute](#contribute)
-- [License](#license)
-
-## Install
-
-```bash
-$ yarn
-```
+Demonstration of running [@kintone/plugin-uploader](https://www.npmjs.com/package/@kintone/plugin-uploader) on docker container.
 
 ## Usage
 
-```bash
-$ yarn start
+```shell
+$ cp .env.template .env
+$ <open .env and fill your authentication secrets>
+$ docker compose run uploader
 ```
-
-## Contribute
-
-PRs accepted.
 
 ## License
 
